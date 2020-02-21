@@ -302,4 +302,4 @@ async def clear_error( ctx, error ):
 # Get token
 token = os.environ.get( 'TOKEN_BOT' )
 
-client.run( token )
+client.run( str( token ) )
